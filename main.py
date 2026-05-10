@@ -30,7 +30,7 @@ genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 # Bot 上線
 # =========================
 @bot.event
