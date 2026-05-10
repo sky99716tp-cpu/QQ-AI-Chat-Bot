@@ -1,0 +1,3 @@
+chat_memory = {}
+
+cooldowns = {}
